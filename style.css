@@ -1,0 +1,166 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background-image:url("https://thumbs.gfycat.com/AcclaimedBleakLacewing-size_restricted.gif")	;
+  background-repeat:no-repeat;
+  background-size:100%;
+  font-size:26px;
+  font-family: monospace;
+}
+
+form {
+  width: 100%;
+  max-width: 30rem;
+  background-image:url("https://thumbs.gfycat.com/AcclaimedBleakLacewing-size_restricted.gif")
+  ; background-size:100%;
+  background-repeat:no-repeat;
+  border-radius:20px;
+  margin:20px;
+  padding:30px;
+
+}
+
+label,input,textarea,button {
+  display: block;
+}
+
+input,textarea,button {
+  width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  color: white;
+  background: #323644;
+  border: 0.125rem solid transparent;
+  border-radius: 1.125rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border-color:rgba(65,105,225);
+ 
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+textarea {
+  min-height: 12.5rem;
+  resize: vertical;
+}
+
+button {
+  border: none;
+  border-radius: 99px;
+  color: white;
+  background: #1d90f5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: rgba(65,105,225);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #555b69;
+}
+
+.success,
+.error {
+  text-align: center;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color:red;
+}
+
+p{
+	font-family:monospace;
+	font-size:32px;
+	border-right:4px solid;
+	width:32ch;
+	white-space:nowrap;
+	overflow:hidden;
+	animation:typing 2s steps(32),blinking 0.5s infinite step-end alternate;
+	
+}
+/*typing*/
+@keyframes typing{
+	from{
+		width:0;
+	
+		
+		
+	}
+		
+}
+/*blinking*/
+@keyframes blinking{
+50%{
+border-color:transparent;
+}	
+	
+}
+
+select{
+	font-family:monospace;
+	 font-size:22px;
+	width:420px;
+	height:70px;
+	border:transparent;
+	 border-radius: 20px;
+   background: #323644;
+   color: #84868f;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+select:focus{
+ outline: none;
+ border-color:rgba(65,105,225);
+  box-shadow: 0 0 0 0.3125rem #26344a;
+	
+	
+}
+
+placeholder{
+	
+	font-size:10px;
+	
+}
+
+.container{
+	display:flex;
+	aligm-itens:center
+	
+	
+}
